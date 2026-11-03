@@ -1,0 +1,19 @@
+testId,irregularHours,leaveYearStart,payPeriodHours,daysPerWeek,pattern,timeframe,startDate,endDate,amount,shiftDuration,shiftsInCycle,daysInCycle,source
+NoDays-01,No,N/A,N/A,5,days worked per week,for a full leave year,N/A,N/A,N/A,N/A,N/A,N/A,gov.uk guidance; 5.6 weeks capped at 28 days
+NoDays-02,No,N/A,N/A,3.5,days worked per week,for a full leave year,N/A,N/A,N/A,N/A,N/A,N/A,gov.uk guidance; 3.5 x 5.6 weeks
+NoDays-03,No,N/A,N/A,7,days worked per week,for a full leave year,N/A,N/A,N/A,N/A,N/A,N/A,gov.uk guidance; 7 days x 5.6 weeks capped at 28 days
+NoDays-04,No,30/03/2026,N/A,5,days worked per week,for someone starting part way through a leave year,01/04/2026,N/A,N/A,N/A,N/A,N/A,legacy; weak assertion; leave year start is a placeholder (not in the decision table)
+NoDays-05,No,30/03/2026,N/A,5,days worked per week,for someone leaving part way through a leave year,N/A,30/09/2026,N/A,N/A,N/A,N/A,legacy; weak assertion; leave year start is a placeholder (not in the decision table)
+NoDays-06,No,N/A,N/A,4,days worked per week,for someone starting and leaving part way through a leave year,01/03/2026,31/10/2026,N/A,N/A,N/A,N/A,legacy; weak assertion
+NoHours-01,No,N/A,N/A,5,hours worked per week,for a full leave year,N/A,N/A,37.5,N/A,N/A,N/A,legacy; weak assertion
+NoHours-02,No,N/A,N/A,4,hours worked per week,for a full leave year,N/A,N/A,20.0,N/A,N/A,N/A,legacy; weak assertion
+NoHours-03,No,30/03/2026,N/A,5,hours worked per week,for someone starting part way through a leave year,01/05/2026,N/A,37.5,N/A,N/A,N/A,legacy; weak assertion; leave year start is a placeholder (not in the decision table)
+NoHours-04,No,30/03/2026,N/A,5,hours worked per week,for someone leaving part way through a leave year,N/A,31/08/2026,37.5,N/A,N/A,N/A,legacy; weak assertion; leave year start is a placeholder (not in the decision table)
+NoHours-05,No,N/A,N/A,4,hours worked per week,for someone starting and leaving part way through a leave year,01/02/2026,30/11/2026,30.0,N/A,N/A,N/A,legacy; weak assertion
+NoShifts-01,No,N/A,N/A,N/A,shifts,for a full leave year,N/A,N/A,N/A,12,4,8,legacy; weak assertion
+NoShifts-02,No,N/A,N/A,N/A,shifts,for a full leave year,N/A,N/A,N/A,8,5,7,legacy; weak assertion
+NoShifts-03,No,30/03/2026,N/A,N/A,shifts,for someone starting part way through a leave year,01/04/2026,N/A,N/A,12,4,8,legacy; weak assertion; leave year start is a placeholder (not in the decision table)
+NoShifts-04,No,30/03/2026,N/A,N/A,shifts,for someone leaving part way through a leave year,N/A,30/09/2026,N/A,10,4,7,legacy; weak assertion; leave year start is a placeholder (not in the decision table)
+NoShifts-05,No,N/A,N/A,N/A,shifts,for someone starting and leaving part way through a leave year,01/03/2026,31/10/2026,N/A,10,4,7,legacy; weak assertion
+NoAnnualised-01,No,N/A,N/A,N/A,annualised hours,for a full leave year,N/A,N/A,1600,N/A,N/A,N/A,legacy
+NoCompressed-01,No,N/A,N/A,5,compressed hours,for a full leave year,N/A,N/A,37.5,N/A,N/A,N/A,legacy; days per week is a placeholder (the calculator asks for it on this path)
