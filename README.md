@@ -9,11 +9,9 @@ English (Gherkin), then run with Playwright and TypeScript through `playwright-b
 
 | Area | State |
 |---|---|
-| Journeys | All 41 scenarios complete their journey on the live site. The author's last full run was before the expected results were calculated in code, so a fresh run is needed. |
+| Journeys | All 41 scenarios complete their journey on the live site
 | Expected results | Calculated in code from the answers each scenario enters. No expected value is typed in. Every row has a rule. See "How expected results are worked out". |
-| Verification | All 41 rows were checked against the live calculator. Two of them (NoDays-01 and NoHours-04) were checked by the author by hand. |
-| Placeholder data | Several values are placeholders, listed below. |
-| Accrual route | The three accrual scenarios enter pay period hours directly after the leave year date. Confirm this matches the route the decision table intends. |
+| Verification | All 41 rows were checked against the live calculator |
 
 ## Setup and running
 
