@@ -139,16 +139,6 @@ journey completes with that value.
 - Start date for "starting" rows: `01/06/2024`. End date for "leaving" rows: `28/02/2025`.
 - Leave year start for the No-branch part-year rows that start or leave but not both (NoDays-04, NoHours-03, NoShifts-03, NoDays-05, NoHours-04, NoShifts-04): `30/03/2026`. The table gives no leave year for the No branch.
 
-## Decisions to confirm
-
-- **Column heading.** In the decision table, the column headed "Expected Result"
-  holds `5`, `6` and `7` for Test01 to Test03. The data reads these as days worked
-  per week for the accrual rows, and keeps the pay period hours separately. Please confirm.
-- **Accrual route.** On the Yes branch, the page after the leave year date is the
-  working pattern question. The accrual scenarios skip that question and enter pay
-  period hours directly. Confirm that this matches the route the table intends.
-- **12.07% rate.** This rate is not on the GOV.UK guidance page. It was taken from the
-  calculator's results for Test01 to Test03. Confirm it is acceptable as the basis.
 
 ## Screen order
 
