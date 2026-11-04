@@ -1,4 +1,4 @@
-# Holiday Entitlement Calculator: UI Test Suite
+# Holiday Entitlement Calculator: UI Test Suite - Amruta Devi Yembuluru
 
 Automated browser tests for the GOV.UK
 [Calculate your holiday entitlement](https://www.gov.uk/calculate-your-holiday-entitlement)
